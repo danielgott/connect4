@@ -1,0 +1,8 @@
+This Connect 4 game is written in python. I used PyCharm and Sublime Text 3 to write most of this code.
+The two librarys I used to write this code is the Numpy library and the Random library
+
+
+In order to play the game in Sublime Text 3, you will need to install SublimeREPL command in order to initialize the int variable
+
+In order to paly the game in PyCharm you only need to select the Numpy interpreter and the game should function correctly
+
