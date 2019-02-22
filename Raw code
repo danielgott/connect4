@@ -8,7 +8,7 @@ def create_board(): #Defines the board size
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
 	return board
 
-def print_board(board): #Flips the board so numpy does start from top to bottom
+def print_board(board): #Flips the board so numpy does starts from top to bottom
 	print(np.flip(board, 0))
 
 def drop_piece(board, row, col, piece): #Sets the inputed position to the piece
@@ -57,7 +57,7 @@ print ("Human player moves = 1")
 print ("Bot moves = 2")
 print ("Human player goes first!")
 
-while not game_over:
+while not game_over: #Primary game loop
 
 	if turn == 0:
 		selection = int(input("Human Player, select your position! (0-6)"))
